@@ -23,6 +23,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 height: 100vh;
-background-color: rgba(8, 27, 2, 0.8);`
+background-color: rgb(8, 27, 2);
+color: rgb(231, 253, 226)`
 
 export default Homepage;
