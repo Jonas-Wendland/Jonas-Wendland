@@ -35,20 +35,23 @@ color: rgb(231, 253, 226);`
 
 const AboutMe = styled.section`
 display: flex;
+position: relative;
+bottom: 0;
 flex-direction: column;
 height: 100vh;
 background-color: rgb(2, 17, 9);
 color: rgb(231, 253, 226);`
 
 const AboutMeDiv = styled.div`
+position: absolute;
+bottom: 0; 
 display: flex;
-position: relative;
-bottom: 0;
 justify-content: center;
 align-items: center;
 width: 100vw;
 height: 12rem;
 background-color: rgb(19, 126, 150);
+color: rgb(231, 253, 226);
 transform: rotate(-3deg);
 transform-origin: bottom left;
 `
