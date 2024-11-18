@@ -6,18 +6,20 @@ function Homepage() {
 
   return (<>
     <FrontView>
-    <img src={profilePicture} 
-    alt="Profile-Picture" 
-    width={150} 
-    height={200}></img>
-    <p>Jonas Wendland</p>
-    <p>Frontend Entwickler</p>
+    <h1>Jonas Wendland</h1>
+    <h2>Frontend Entwickler</h2>
     </FrontView>
     <AboutMe>
+      <StyledImage>
+    <StyledImg src={profilePicture} 
+    alt="Profile-Picture" 
+    width={300} 
+    height={400}></StyledImg>
+    </StyledImage>
       <AboutMeDiv>
-        <p>
+        <StyledP>
           Ich bin ein Junior Entwickler der schon länger Interesse am programmieren hatte und jetzt endlich den weg des profesionellen programmieren einschlägt.
-        </p>
+        </StyledP>
       </AboutMeDiv>
     </AboutMe>
     </>
@@ -27,7 +29,6 @@ function Homepage() {
 const FrontView = styled.section`
 display: flex;
 flex-direction: column;
-justify-content: center;
 align-items: center;
 height: 100vh;
 background-color: rgb(2, 17, 9);
@@ -54,6 +55,21 @@ background-color: rgb(19, 126, 150);
 color: rgb(231, 253, 226);
 transform: rotate(-3deg);
 transform-origin: bottom left;
+`
+
+const StyledImage = styled.div`
+display: flex;
+justify-content: center;
+`
+
+const StyledImg = styled.img`
+position: relative;
+top: 5.8rem;
+`
+
+const StyledP = styled.p`
+flex-wrap: wrap;
+font-size: 1.3rem;
 `
 
 export default Homepage;
