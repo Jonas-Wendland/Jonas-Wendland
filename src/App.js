@@ -1,5 +1,13 @@
 import profilePicture from "./images/Profile-Picture.jpg"
 import styled from "styled-components";
+import SkillsIcon from "./components/svgicon";
+import JavaScriptIcon from "./lib/SVGIcons/JavaScriptIcon";
+import CSSIcon from "./lib/SVGIcons/CSSIcon";
+import HTMLIcon from "./lib/SVGIcons/htmlIcon";
+import ReactIcon from "./lib/SVGIcons/ReactIcon";
+import NextJsIcon from "./lib/SVGIcons/NextJsIcon";
+import MongoDBIcon from "./lib/SVGIcons/MongoDBIcon";
+import APIIcon from "./lib/SVGIcons/APIIcon";
 
 
 function Homepage() {
@@ -10,6 +18,7 @@ function Homepage() {
     <h2>Frontend Entwickler</h2>
     </FrontView>
     <AboutMe>
+      <StyledHeader>About Me</StyledHeader>
       <StyledImage>
     <StyledImg src={profilePicture} 
     alt="Profile-Picture" 
@@ -18,10 +27,24 @@ function Homepage() {
     </StyledImage>
       <AboutMeDiv>
         <StyledP>
-          Ich bin ein Junior Entwickler der schon länger Interesse am programmieren hatte und jetzt endlich den weg des profesionellen programmieren einschlägt.
+          Junior Entwickler der schon länger Interesse am programmieren hatte und jetzt endlich den weg des profesionellen programmieren einschlägt.
         </StyledP>
       </AboutMeDiv>
     </AboutMe>
+    <SkillsSection>
+      <StyledHeader>Skills</StyledHeader>
+      <SkillsDiv>
+        <StyledUl>
+          <SkillsIcon icon={JavaScriptIcon} name="JavaScript"/>
+          <SkillsIcon icon={CSSIcon} name="CSS" />
+          <SkillsIcon icon={HTMLIcon} name="HTML" />
+          <SkillsIcon icon={ReactIcon} name="React"/>
+          <SkillsIcon icon={NextJsIcon} name="Next.js"/>
+          <SkillsIcon icon={MongoDBIcon} name="MongoDB"/>
+          <SkillsIcon icon={APIIcon} name="RESTful APIs"/>
+          </StyledUl>
+      </SkillsDiv>
+    </SkillsSection>
     </>
   );
 }
@@ -31,8 +54,8 @@ display: flex;
 flex-direction: column;
 align-items: center;
 height: 100vh;
-background-color: rgb(2, 17, 9);
-color: rgb(231, 253, 226);`
+color: rgb(231, 253, 226);
+`
 
 const AboutMe = styled.section`
 display: flex;
@@ -40,8 +63,8 @@ position: relative;
 bottom: 0;
 flex-direction: column;
 height: 100vh;
-background-color: rgb(2, 17, 9);
-color: rgb(231, 253, 226);`
+color: rgb(231, 253, 226);
+`
 
 const AboutMeDiv = styled.div`
 position: absolute;
@@ -57,6 +80,24 @@ transform: rotate(-3deg);
 transform-origin: bottom left;
 `
 
+const SkillsSection = styled.section`
+display: flex;
+flex-direction: column;
+height: 100vh;
+justify-content: center;`
+
+const SkillsDiv = styled.div`
+
+width: 100vw;
+background-color: rgb(19, 126, 150)`
+
+const StyledHeader = styled.h3`
+text-align: center;
+color: rgb(19, 126, 150);
+font-size: 5rem;
+margin: 0;
+`
+
 const StyledImage = styled.div`
 display: flex;
 justify-content: center;
@@ -64,12 +105,19 @@ justify-content: center;
 
 const StyledImg = styled.img`
 position: relative;
-top: 5.8rem;
 `
 
 const StyledP = styled.p`
 flex-wrap: wrap;
 font-size: 1.3rem;
+`
+
+const StyledUl = styled.ul`
+display: flex;
+justify-content: space-evenly;
+gap: 10rem;
+flex-wrap: wrap;
+flex-direction: row;
 `
 
 export default Homepage;
