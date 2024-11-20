@@ -1,4 +1,4 @@
-import profilePicture from "./images/Profile-Picture.jpg"
+import profilePicture from "./lib/images/Profile-Picture.jpg"
 import styled from "styled-components";
 import SkillsIcon from "./components/svgicon";
 import JavaScriptIcon from "./lib/SVGIcons/JavaScriptIcon";
@@ -45,6 +45,9 @@ function Homepage() {
           </StyledUl>
       </SkillsDiv>
     </SkillsSection>
+    <ProjekteSection>
+      <StyledHeader>Projekte</StyledHeader>
+    </ProjekteSection>
     </>
   );
 }
@@ -87,9 +90,11 @@ height: 100vh;
 justify-content: center;`
 
 const SkillsDiv = styled.div`
-
 width: 100vw;
-background-color: rgb(19, 126, 150)`
+background-color: rgb(19, 126, 150);`
+
+const ProjekteSection = styled.section`
+height: 100vh;`
 
 const StyledHeader = styled.h3`
 text-align: center;
