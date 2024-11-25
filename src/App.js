@@ -50,10 +50,19 @@ function Homepage() {
     <ProjekteSection>
       <StyledHeader>Projekte</StyledHeader>
       <StyledH2>Survival Pets</StyledH2>
+      <ProjekteGrid>
       <ProjekteDiv>
       <StyledImg src={survivalPets1} alt="Survival Pets 1" width={500} height={400}/>
       <ProjektImg2 src={survivalPets2} alt="Survival Pets 1" width={500} height={400}/>
       </ProjekteDiv>
+      <StyledUlProjekte> Schwerpunkte
+        <StyledLi>JavaScript</StyledLi>
+        <StyledLi>Styling/CSS</StyledLi>
+        <StyledLi>Zeit Komponente</StyledLi>
+        <StyledLi>Routing</StyledLi>
+        <StyledLi>MongoDB</StyledLi>
+      </StyledUlProjekte>
+      </ProjekteGrid>
     </ProjekteSection>
     </>
   );
@@ -122,6 +131,10 @@ flex-direction: row;
 margin-left: 2rem;
 `
 
+const ProjekteGrid = styled.div`
+display: grid;
+grid-template-columns: 1fr 1fr;`
+
 const StyledImage = styled.div`
 display: flex;
 justify-content: center;
@@ -149,5 +162,16 @@ gap: 10rem;
 flex-wrap: wrap;
 flex-direction: row;
 `
+
+const StyledUlProjekte = styled.ul`
+color: rgb(19, 126, 150);
+font-size: 2rem;
+`
+
+const StyledLi = styled.li`
+font-size: 1.3rem;
+margin-top: 1rem;
+`
+
 
 export default Homepage;
