@@ -1,4 +1,6 @@
 import profilePicture from "./lib/images/Profile-Picture.jpg"
+import survivalPets1 from "./lib/images/survivalPets-1.png"
+import survivalPets2 from "./lib/images/survivalPets-2.png"
 import styled from "styled-components";
 import SkillsIcon from "./components/svgicon";
 import JavaScriptIcon from "./lib/SVGIcons/JavaScriptIcon";
@@ -47,6 +49,11 @@ function Homepage() {
     </SkillsSection>
     <ProjekteSection>
       <StyledHeader>Projekte</StyledHeader>
+      <StyledH2>Survival Pets</StyledH2>
+      <ProjekteDiv>
+      <StyledImg src={survivalPets1} alt="Survival Pets 1" width={500} height={400}/>
+      <ProjektImg2 src={survivalPets2} alt="Survival Pets 1" width={500} height={400}/>
+      </ProjekteDiv>
     </ProjekteSection>
     </>
   );
@@ -102,15 +109,33 @@ color: rgb(19, 126, 150);
 font-size: 5rem;
 margin: 0;
 `
+const StyledH2 = styled.h2`
+text-align: center;
+color: rgb(19, 126, 150);
+font-size: 2rem;
+margin-bottom: 0;
+`
+
+const ProjekteDiv = styled.div`
+display: flex;
+flex-direction: row;
+margin-left: 2rem;
+`
 
 const StyledImage = styled.div`
 display: flex;
 justify-content: center;
 `
-
 const StyledImg = styled.img`
 position: relative;
+object-fit: contain;
 `
+
+const ProjektImg2 = styled.img`
+position: relative;
+object-fit: contain;
+left: -20rem;
+top: 8rem;`
 
 const StyledP = styled.p`
 flex-wrap: wrap;
