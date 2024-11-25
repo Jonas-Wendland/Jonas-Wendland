@@ -164,6 +164,9 @@ flex-direction: row;
 `
 
 const StyledUlProjekte = styled.ul`
+display: flex;
+flex-direction: column;
+justify-content: center;
 color: rgb(19, 126, 150);
 font-size: 2rem;
 `
