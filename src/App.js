@@ -1,4 +1,6 @@
-import profilePicture from "./images/Profile-Picture.jpg"
+import profilePicture from "./lib/images/Profile-Picture.jpg"
+import survivalPets1 from "./lib/images/survivalPets-1.png"
+import survivalPets2 from "./lib/images/survivalPets-2.png"
 import styled from "styled-components";
 import SkillsIcon from "./components/svgicon";
 import JavaScriptIcon from "./lib/SVGIcons/JavaScriptIcon";
@@ -45,6 +47,23 @@ function Homepage() {
           </StyledUl>
       </SkillsDiv>
     </SkillsSection>
+    <ProjekteSection>
+      <StyledHeader>Projekte</StyledHeader>
+      <StyledH2>Survival Pets</StyledH2>
+      <ProjekteGrid>
+      <ProjekteDiv>
+      <StyledImg src={survivalPets1} alt="Survival Pets 1" width={500} height={400}/>
+      <ProjektImg2 src={survivalPets2} alt="Survival Pets 1" width={500} height={400}/>
+      </ProjekteDiv>
+      <StyledUlProjekte> Schwerpunkte
+        <StyledLi>JavaScript</StyledLi>
+        <StyledLi>Styling/CSS</StyledLi>
+        <StyledLi>Zeit Komponente</StyledLi>
+        <StyledLi>Routing</StyledLi>
+        <StyledLi>MongoDB</StyledLi>
+      </StyledUlProjekte>
+      </ProjekteGrid>
+    </ProjekteSection>
     </>
   );
 }
@@ -87,9 +106,11 @@ height: 100vh;
 justify-content: center;`
 
 const SkillsDiv = styled.div`
-
 width: 100vw;
-background-color: rgb(19, 126, 150)`
+background-color: rgb(19, 126, 150);`
+
+const ProjekteSection = styled.section`
+height: 100vh;`
 
 const StyledHeader = styled.h3`
 text-align: center;
@@ -97,15 +118,37 @@ color: rgb(19, 126, 150);
 font-size: 5rem;
 margin: 0;
 `
+const StyledH2 = styled.h2`
+text-align: center;
+color: rgb(19, 126, 150);
+font-size: 2rem;
+margin-bottom: 0;
+`
+
+const ProjekteDiv = styled.div`
+display: flex;
+flex-direction: row;
+margin-left: 2rem;
+`
+
+const ProjekteGrid = styled.div`
+display: grid;
+grid-template-columns: 1fr 1fr;`
 
 const StyledImage = styled.div`
 display: flex;
 justify-content: center;
 `
-
 const StyledImg = styled.img`
 position: relative;
+object-fit: contain;
 `
+
+const ProjektImg2 = styled.img`
+position: relative;
+object-fit: contain;
+left: -20rem;
+top: 8rem;`
 
 const StyledP = styled.p`
 flex-wrap: wrap;
@@ -119,5 +162,19 @@ gap: 10rem;
 flex-wrap: wrap;
 flex-direction: row;
 `
+
+const StyledUlProjekte = styled.ul`
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: rgb(19, 126, 150);
+font-size: 2rem;
+`
+
+const StyledLi = styled.li`
+font-size: 1.3rem;
+margin-top: 1rem;
+`
+
 
 export default Homepage;
