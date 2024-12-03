@@ -8,12 +8,15 @@ function Homepage() {
   <header>
 
   </header>
-  <div>
+  <FrontSection>
+  <StyledGreeting>
     <StyledImg src={ProfilePicture} alt="ProfilePicture"></StyledImg>
     <p>Mein Name ist Jonas Wendland und ich bin ein junior Web-/Frontend-entwickler. <br/>
       Diese Seite ist da um mich vorzustellen und zu zeigen was ich bis jetzt alles kann.
     </p>
-  </div>
+  </StyledGreeting>
+  <div></div>
+  </FrontSection>
 
   <footer>
 
@@ -28,5 +31,15 @@ border-radius: 10rem;
 object-fit: contain;
 `
 
+const StyledGreeting = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;`
+
+const FrontSection = styled.section`
+display: grid;
+grid-template-columns: 2fr 1fr;
+`
 
 export default Homepage;
