@@ -1,12 +1,11 @@
 import styled from "styled-components"
 
 
-export default function SkillsIcon({icon: Icon, name}) {
+export default function SkillsIcon({icon: Icon}) {
     return(<StyledDiv>
         <div>
             <Icon></Icon>
         </div>
-        <p>{name}</p>
     </StyledDiv>)
 }
 
