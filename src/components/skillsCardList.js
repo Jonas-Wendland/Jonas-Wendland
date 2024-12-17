@@ -26,4 +26,36 @@ const SkillCardList = styled.div`
 display: flex;
 gap: 2rem;
 padding-left: 2rem;
+margin-right: 2rem;
+overflow-x: auto;
+flex-wrap: nowrap;
+width: 100%; 
+scrollbar-width: 1rem;
+scrollbar-color: rgb(19, 126, 150) transparent;
+padding-bottom: 1rem;
+
+&::-webkit-scrollbar {
+    height: 5rem; 
+  }
+
+  &::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgb(19, 126, 150);
+    border-radius: 100px; 
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(15, 100, 120);
+  }
+/* 
+  &::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+
+  &::-webkit-scrollbar-button {
+  display: none;
+} */
 `

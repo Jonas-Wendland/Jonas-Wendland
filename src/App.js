@@ -18,9 +18,8 @@ function Homepage() {
   </StyledGreeting>
   <div></div>
   </FrontSection>
-  <SkillsCardList>
+  <SkillsCardList/>
 
-  </SkillsCardList>
   <footer>
 
   </footer>
