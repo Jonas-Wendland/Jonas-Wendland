@@ -18,5 +18,6 @@ align-items: center;
 border: 2px solid black;
 border-radius: 2rem;
 min-height: 13rem;
-width: 10rem;
+min-width: 10rem;
+max-width: 10rem;
 `
