@@ -76,7 +76,7 @@ position: absolute;
 
   &.right {
     right: 0;
-    width: 100px;
+    width: 50px;
     background: linear-gradient(to left, rgb(15, 42 ,36), rgba(255, 255, 255, 0));
   }
 `
