@@ -19,6 +19,8 @@ export default function SkillsCardList(){
   <SkillsCard skillIcon={NextJsIcon} skillName={"Next.js"}/>
   <SkillsCard skillIcon={MongoDBIcon} skillName={"MongoDB"}/>
   <SkillsCard skillIcon={APIIcon} skillName={"API"}/>
+  <FadingOverlay className="left"/>
+  <FadingOverlay className="right"/>
     </SkillCardList>)
 }
 
@@ -29,7 +31,7 @@ padding-left: 2rem;
 margin-right: 2rem;
 overflow-x: auto;
 flex-wrap: nowrap;
-width: 100%; 
+width: calc(100% - 2rem); 
 scrollbar-width: 1rem;
 scrollbar-color: rgb(19, 126, 150) transparent;
 padding-bottom: 1rem;
@@ -58,4 +60,23 @@ padding-bottom: 1rem;
   &::-webkit-scrollbar-button {
   display: none;
 } */
+`
+
+const FadingOverlay = styled.div`
+position: absolute;
+  top: 0;
+  bottom: 10.5rem;
+  pointer-events: none;
+
+  &.left {
+    left: 0;
+    width: 50px;
+    background: linear-gradient(to right, rgb(15, 42 ,36), rgba(255, 255, 255, 0));
+  }
+
+  &.right {
+    right: 0;
+    width: 100px;
+    background: linear-gradient(to left, rgb(15, 42 ,36), rgba(255, 255, 255, 0));
+  }
 `
