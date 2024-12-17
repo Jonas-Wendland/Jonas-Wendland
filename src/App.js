@@ -1,5 +1,7 @@
 import ProfilePicture from "./lib/images/Profile-Picture.jpg";
 import styled from "styled-components";
+import SkillsCard from "./components/skillsCard";
+import CSSIcon from "./lib/SVGIcons/CSSIcon"
 
 
 function Homepage() {
@@ -17,7 +19,7 @@ function Homepage() {
   </StyledGreeting>
   <div></div>
   </FrontSection>
-
+  <SkillsCard skillIcon={CSSIcon} skillName={"CSS"}/>
   <footer>
 
   </footer>
