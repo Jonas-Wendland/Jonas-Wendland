@@ -37,7 +37,7 @@ padding-right: 2rem;
 overflow-x: auto;
 flex-wrap: nowrap;
 width: 90vw; 
-height: 12rem;
+height: 11rem;
 
 &::-webkit-scrollbar {
   height: 10px;

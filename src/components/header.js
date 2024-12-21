@@ -5,16 +5,20 @@ import MenuIcon from "../lib/SVGIcons/MenuIcon"
 
 
 export default function Header() {
-    return (<HeaderContainer>
+    return (<>
+    <HeaderContainer>
     <Button><Icons icon={MenuIcon}/></Button>
     </HeaderContainer>
+    <StyledHr/>
+    </>
     )
 }
 
 const HeaderContainer = styled.div`
 display: flex;
 width: calc(100vw - 1.5rem);
-height: 2em;
+align-items: center;
+height: 2.5rem;
 justify-content: flex-end;
 `
 
@@ -25,9 +29,13 @@ justify-content: center;
 align-items: center;
 width: 40px;
 height: 25px;
+top: 2px;
 border: 2px solid black;
 border-radius: 3px;
 background-color: rgb(19, 126, 150);
-top: 5px;
-right: 5px;
 `
+
+
+const StyledHr = styled.hr`
+color: rgb(0, 0, 0);
+border-color: rgb(0, 0, 0);`
