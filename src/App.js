@@ -1,6 +1,7 @@
 import ProfilePicture from "./lib/images/Profile-Picture.jpg";
 import styled from "styled-components";
 import SkillsCardList from "./components/skillsCardList";
+import ProjectsList from "./components/projectList";
 
 
 function Homepage() {
@@ -19,7 +20,8 @@ function Homepage() {
   <div></div>
   </FrontSection>
   <SkillsCardList/>
-
+  <br/>
+  <ProjectsList/>
   <footer>
 
   </footer>
@@ -28,9 +30,10 @@ function Homepage() {
 }
 
 const StyledImg = styled.img`
-border: rgb(46, 204, 113) 1px solid;
+border: rgb(19, 126, 150) 2px solid;
 border-radius: 10rem;
 object-fit: contain;
+box-shadow: 5px 5px 5px black;
 `
 
 const StyledGreeting = styled.div`

@@ -71,3 +71,4 @@ height: 12rem;
    display: flex;
    justify-content: center;
    `
+
