@@ -37,5 +37,4 @@ background-color: rgb(19, 126, 150);
 
 
 const StyledHr = styled.hr`
-color: rgb(0, 0, 0);
-border-color: rgb(0, 0, 0);`
+border: 1px solid black;`
