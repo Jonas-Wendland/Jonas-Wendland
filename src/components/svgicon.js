@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 
-export default function SkillsIcon({icon: Icon}) {
+export default function Icons({icon: Icon}) {
     return(<StyledDiv>
         <div>
             <Icon></Icon>

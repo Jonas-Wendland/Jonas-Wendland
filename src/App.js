@@ -2,14 +2,14 @@ import ProfilePicture from "./lib/images/Profile-Picture.jpg";
 import styled from "styled-components";
 import SkillsCardList from "./components/skillsCardList";
 import ProjectsList from "./components/projectList";
+import Header from "./components/header";
 
 
 function Homepage() {
 
   return (<>
-  <header>
-
-  </header>
+  <Header/>
+  <hr/>
   <FrontSection>
   <StyledGreeting>
     <StyledImg src={ProfilePicture} alt="ProfilePicture"></StyledImg>

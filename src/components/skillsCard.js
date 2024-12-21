@@ -1,10 +1,10 @@
-import SkillsIcon from "./svgicon"
+import Icons from "./svgicon"
 import styled from "styled-components"
 
 export default function SkillsCard({skillIcon, skillName}){
     return(<>
     <StyledDiv>
-        <SkillsIcon icon={skillIcon}/>
+        <Icons icon={skillIcon}/>
         <p>{skillName}</p>
     </StyledDiv>
         </>)
