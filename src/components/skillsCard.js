@@ -18,7 +18,8 @@ justify-content: space-evenly;
 align-items: center;
 border: 2px solid black;
 border-radius: 2rem;
-min-height: 12rem;
+min-height: 10rem;
 min-width: 10rem;
 max-width: 10rem;
+box-shadow: 3px 3px 3px black;
 `
