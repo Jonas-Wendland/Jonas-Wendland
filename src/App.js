@@ -17,7 +17,7 @@ function Homepage() {
       Diese Seite ist da um mich vorzustellen und zu zeigen was ich bis jetzt alles kann.
     </p>
   </StyledGreeting>
-  <div></div>
+  <div><StyledH1> HIRE ME</StyledH1></div>
   </FrontSection>
   <SkillsCardList/>
   <br/>
@@ -46,7 +46,9 @@ const FrontSection = styled.section`
 display: grid;
 grid-template-columns: 2fr 1fr;
 `
-
+const StyledH1 = styled.h1`
+font-size: 5rem;
+margin: 0px 0px 0px 0px;`
 
 
 export default Homepage;
