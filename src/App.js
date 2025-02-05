@@ -15,7 +15,7 @@ function Homepage() {
   <StyledGreeting>
     <StyledImg src={ProfilePicture} alt="ProfilePicture"></StyledImg>
     <p>Mein Name ist Jonas Wendland und ich bin ein junior Web-/Frontend-entwickler. <br/>
-      Diese Seite ist da um mich vorzustellen und zu zeigen was ich bis jetzt alles kann.
+      Diese Seite ist da um mich vorzustellen und zu zeigen was ich bis jetzt alles kann. 
     </p>
   </StyledGreeting>
   <HireMeCard/>
