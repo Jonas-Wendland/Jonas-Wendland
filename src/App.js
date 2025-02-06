@@ -34,6 +34,8 @@ border: rgb(19, 126, 150) 2px solid;
 border-radius: 10rem;
 object-fit: contain;
 box-shadow: 5px 5px 5px black;
+height: 200px;
+width: 200px;
 `
 
 const StyledGreeting = styled.div`
