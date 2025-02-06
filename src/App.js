@@ -14,9 +14,9 @@ function Homepage() {
   <FrontSection>
   <StyledGreeting>
     <StyledImg src={ProfilePicture} alt="ProfilePicture"></StyledImg>
-    <p>Mein Name ist Jonas Wendland und ich bin ein junior Web-/Frontend-entwickler. <br/>
+    <StyledP>Mein Name ist Jonas Wendland und ich bin ein junior Web-/Frontend-entwickler. <br/>
       Diese Seite ist da um mich vorzustellen und zu zeigen was ich bis jetzt alles kann. 
-    </p>
+    </StyledP>
   </StyledGreeting>
   <HireMeCard/>
   </FrontSection>
@@ -48,6 +48,9 @@ display: grid;
 grid-template-columns: 1.3fr 1fr;
 `
 
+const StyledP = styled.p`
+flex-wrap: wrap;
+font-family: 'Merriweather', serif;`
 
 
 
