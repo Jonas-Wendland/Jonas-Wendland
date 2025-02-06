@@ -1,5 +1,5 @@
 --text #e6fcf1
---background  #021109
+--background rgb(0, 0, 0)
 --primary rgb(137, 240, 183)
 --secondary rgb(19, 126, 150)
 --accent #259de3
