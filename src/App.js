@@ -3,14 +3,13 @@ import styled from "styled-components";
 import SkillsCardList from "./components/skillsCardList";
 import ProjectsList from "./components/projectList";
 import HireMeCard from "./components/hireMeCard";
+import Header from "./components/header";
 
 
 function Homepage() {
 
   return (<>
-  <header>
-
-  </header>
+  <Header/>
   <FrontSection>
   <StyledGreeting>
     <StyledImg src={ProfilePicture} alt="ProfilePicture"></StyledImg>
@@ -41,7 +40,8 @@ const StyledGreeting = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
-flex-direction: column;`
+flex-direction: column;
+padding-top: 2rem;`
 
 const FrontSection = styled.section`
 display: grid;
