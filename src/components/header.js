@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
+
 
 const Header = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -16,10 +18,10 @@ const Header = () => {
           <DropdownButton onClick={toggleDropdown}>Menü</DropdownButton>
           {dropdownOpen && (
             <DropdownContent>
-              <DropdownItem href="#homepage">Home</DropdownItem>
-              <DropdownItem href="#projekte">Projekte</DropdownItem>
-              <DropdownItem href="#kontakt">Kontakt</DropdownItem>
-              <DropdownItem href="aboutme">About Me</DropdownItem>
+              <DropdownItem to="/">Home</DropdownItem>
+              <DropdownItem href="Projekte">Projekte</DropdownItem>
+              <DropdownItem href="Kontakt">Kontakt</DropdownItem>
+              <DropdownItem to="/about">About Me</DropdownItem>
             </DropdownContent>
           )}
         </Dropdown>
@@ -73,7 +75,7 @@ const DropdownContent = styled.div`
   right: 0;
 `;
 
-const DropdownItem = styled.a`
+const DropdownItem = styled(Link)`
   color: black;
   padding: 12px 16px;
   text-decoration: none;
