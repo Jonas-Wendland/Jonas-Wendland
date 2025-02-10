@@ -19,8 +19,7 @@ const Header = () => {
           {dropdownOpen && (
             <DropdownContent>
               <DropdownItem to="/">Home</DropdownItem>
-              <DropdownItem href="Projekte">Projekte</DropdownItem>
-              <DropdownItem href="Kontakt">Kontakt</DropdownItem>
+              <DropdownItem to="/projekte">Projekte</DropdownItem>
               <DropdownItem to="/about">About Me</DropdownItem>
             </DropdownContent>
           )}
