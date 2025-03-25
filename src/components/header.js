@@ -9,13 +9,12 @@ const Header = () => {
   const toggleDropdown = () => {
     setDropdownOpen(!dropdownOpen);
   };
-
   return (
     <HeaderContainer>
       <Nav>
         <Logo></Logo>
         <Dropdown>
-          <DropdownButton onClick={toggleDropdown}>Menü</DropdownButton>
+          <DropdownButton  onClick={toggleDropdown}>Menü</DropdownButton>
           {dropdownOpen && (
             <DropdownContent>
               <DropdownItem to="/">Home</DropdownItem>

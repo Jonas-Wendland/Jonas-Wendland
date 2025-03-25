@@ -26,7 +26,7 @@ export default function SkillsCardList(){
 }
 
 const SkillCardList = styled.div`
-background-color: rgb(19, 126, 150);
+background-color: #00df82;
 border-radius: 2rem;
 border: solid black 2px;
 display: flex;

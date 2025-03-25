@@ -30,7 +30,7 @@ export default function Homepage() {
 }
 
 const StyledImg = styled.img`
-border: rgb(19, 126, 150) 2px solid;
+border: #030f0f 3px solid;
 border-radius: 10rem;
 object-fit: contain;
 box-shadow: 5px 5px 5px black;
@@ -52,6 +52,8 @@ grid-template-columns: 1.3fr 1fr;
 
 const StyledP = styled.p`
 flex-wrap: wrap;
-font-family: 'Merriweather', serif;`
+font-family: 'Merriweather', serif;
+padding-left: 2rem;
+padding-right: 2rem;`
 
 

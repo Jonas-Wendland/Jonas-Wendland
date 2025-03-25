@@ -29,4 +29,5 @@ const StyledP = styled.p`
 width: 30rem;
 flex-wrap: wrap;
 font-family: 'Merriweather', serif;
+padding-right: 2rem;
 `
