@@ -9,13 +9,12 @@ const Header = () => {
   const toggleDropdown = () => {
     setDropdownOpen(!dropdownOpen);
   };
-
   return (
     <HeaderContainer>
       <Nav>
         <Logo></Logo>
         <Dropdown>
-          <DropdownButton onClick={toggleDropdown}>Menü</DropdownButton>
+          <DropdownButton  onClick={toggleDropdown}>Menü</DropdownButton>
           {dropdownOpen && (
             <DropdownContent>
               <DropdownItem to="/">Home</DropdownItem>
@@ -36,6 +35,8 @@ const HeaderContainer = styled.header`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
 `;
 
 const Nav = styled.nav`

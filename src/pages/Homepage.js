@@ -30,7 +30,7 @@ export default function Homepage() {
 }
 
 const StyledImg = styled.img`
-border: rgb(19, 126, 150) 2px solid;
+border: #030f0f 3px solid;
 border-radius: 10rem;
 object-fit: contain;
 box-shadow: 5px 5px 5px black;
@@ -40,10 +40,11 @@ width: 200px;
 
 const StyledGreeting = styled.div`
 display: flex;
-justify-content: center;
 align-items: center;
 flex-direction: column;
-padding-top: 2rem;`
+justify-content: space-evenly;
+height: 30rem;
+`
 
 const FrontSection = styled.section`
 display: grid;
@@ -52,6 +53,9 @@ grid-template-columns: 1.3fr 1fr;
 
 const StyledP = styled.p`
 flex-wrap: wrap;
-font-family: 'Merriweather', serif;`
+font-family: 'Merriweather', serif;
+font-size: 1.2rem;
+padding-left: 2rem;
+padding-right: 2rem;`
 
 

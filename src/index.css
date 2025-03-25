@@ -1,12 +1,12 @@
 body {
   margin: 0;
-  background-color: rgb(15, 42 ,36);
+  background-color: #03624c;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: rgb(217, 217, 217);
+  color: #030f0f;
   -webkit-scrollbar { height: 8px};
 }
 
