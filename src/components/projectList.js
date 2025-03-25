@@ -16,7 +16,7 @@ export default function ProjectsList() {
 
 
 const ProjectList = styled.div`
-background-color: #00df82;
+background-color:rgb(0, 223, 67);
 border-radius: 2rem;
 border: solid black 2px;
 display: flex;
