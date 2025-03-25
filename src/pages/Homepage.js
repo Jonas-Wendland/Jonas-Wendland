@@ -54,6 +54,7 @@ grid-template-columns: 1.3fr 1fr;
 const StyledP = styled.p`
 flex-wrap: wrap;
 font-family: 'Merriweather', serif;
+font-size: 1.2rem;
 padding-left: 2rem;
 padding-right: 2rem;`
 

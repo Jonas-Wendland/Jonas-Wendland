@@ -6,7 +6,7 @@ export default function HireMeCard() {
     <StyledHireme>
         <StyledH1> HIRE ME</StyledH1> 
         <StyledP>Ich bin offen für Stellenangebote und bin ganz heiß drauf endlich durchzusatrten 
-        und bin bereit neues Wissen mir anzueignen.</StyledP>
+        und bin bereit mir neues Wissen  anzueignen.</StyledP>
         </StyledHireme>
     </>)
 }
@@ -27,6 +27,7 @@ justify-content: space-evenly;
 
 const StyledP = styled.p`
 width: 30rem;
+font-size: 1.2rem;
 flex-wrap: wrap;
 font-family: 'Merriweather', serif;
 padding-right: 2rem;
