@@ -14,7 +14,7 @@ export default function HireMeCard() {
 
 const StyledH1 = styled.h1`
 font-size: 8rem;
-margin: 20px 0px 0px 0px;
+margin: 0;
 font-family: 'Playfair Display', serif;
 `
 
@@ -22,7 +22,7 @@ const StyledHireme = styled.div`
 display: flex;
 flex-direction: column;
 align-items: center;
-justify-content: space-between;
+justify-content: space-evenly;
 `
 
 const StyledP = styled.p`

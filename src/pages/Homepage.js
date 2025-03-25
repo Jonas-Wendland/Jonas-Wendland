@@ -40,10 +40,11 @@ width: 200px;
 
 const StyledGreeting = styled.div`
 display: flex;
-justify-content: center;
 align-items: center;
 flex-direction: column;
-padding-top: 2rem;`
+justify-content: space-evenly;
+height: 30rem;
+`
 
 const FrontSection = styled.section`
 display: grid;
