@@ -59,15 +59,5 @@
     "pathHeader": "x-nextjs-rewritten-path",
     "queryHeader": "x-nextjs-rewritten-query"
   },
-  "rewrites": {
-    "beforeFiles": [
-      {
-        "source": "/Jonas-Wendland//_next/:path+",
-        "destination": "/Jonas-Wendland/_next/:path+",
-        "regex": "^/Jonas-Wendland//_next(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))(?:/)?$"
-      }
-    ],
-    "afterFiles": [],
-    "fallback": []
-  }
+  "rewrites": []
 }

@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/1gAl0S9sVll4btAbF6xOs/_buildManifest.js",
-    "static/1gAl0S9sVll4btAbF6xOs/_ssgManifest.js"
+    "static/-nlZXibTm4oDPelbDeyDw/_buildManifest.js",
+    "static/-nlZXibTm4oDPelbDeyDw/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "rootMainFilesTree": {},
@@ -14,7 +14,7 @@
     "/AboutMe": [
       "static/chunks/webpack-7bc142694fe8d019.js",
       "static/chunks/framework-ee17a4c43a44d3e2.js",
-      "static/chunks/main-a35ce4c940695109.js",
+      "static/chunks/main-3022d81c4241fa59.js",
       "static/chunks/6361ee93-d67d0c9c81da94e4.js",
       "static/chunks/600-ed15cedf8b085fe7.js",
       "static/chunks/pages/AboutMe-2af5f111a6fb7cfb.js"
@@ -22,15 +22,15 @@
     "/Homepage": [
       "static/chunks/webpack-7bc142694fe8d019.js",
       "static/chunks/framework-ee17a4c43a44d3e2.js",
-      "static/chunks/main-a35ce4c940695109.js",
+      "static/chunks/main-3022d81c4241fa59.js",
       "static/chunks/6361ee93-d67d0c9c81da94e4.js",
       "static/chunks/600-ed15cedf8b085fe7.js",
-      "static/chunks/pages/Homepage-fe5a82ca51f94489.js"
+      "static/chunks/pages/Homepage-46f7f442d4a355dc.js"
     ],
     "/Projekte": [
       "static/chunks/webpack-7bc142694fe8d019.js",
       "static/chunks/framework-ee17a4c43a44d3e2.js",
-      "static/chunks/main-a35ce4c940695109.js",
+      "static/chunks/main-3022d81c4241fa59.js",
       "static/chunks/6361ee93-d67d0c9c81da94e4.js",
       "static/chunks/600-ed15cedf8b085fe7.js",
       "static/chunks/pages/Projekte-33ee3ca953cf8e31.js"
@@ -38,13 +38,13 @@
     "/_app": [
       "static/chunks/webpack-7bc142694fe8d019.js",
       "static/chunks/framework-ee17a4c43a44d3e2.js",
-      "static/chunks/main-a35ce4c940695109.js",
+      "static/chunks/main-3022d81c4241fa59.js",
       "static/chunks/pages/_app-192a2aa6e59bbef8.js"
     ],
     "/_error": [
       "static/chunks/webpack-7bc142694fe8d019.js",
       "static/chunks/framework-ee17a4c43a44d3e2.js",
-      "static/chunks/main-a35ce4c940695109.js",
+      "static/chunks/main-3022d81c4241fa59.js",
       "static/chunks/pages/_error-c1d32e39113d037a.js"
     ]
   },

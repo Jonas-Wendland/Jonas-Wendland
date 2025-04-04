@@ -12,7 +12,7 @@
     },
     "distDir": ".next",
     "cleanDistDir": true,
-    "assetPrefix": "/Jonas-Wendland/",
+    "assetPrefix": "/Jonas-Wendland",
     "cacheMaxMemorySize": 52428800,
     "configOrigin": "next.config.js",
     "useFileSystemPublicRoutes": true,
