@@ -46,7 +46,7 @@
         256,
         384
       ],
-      "path": "/Jonas-Wendland/_next/image",
+      "path": "/Jonas-Wendland/_next/image/",
       "loader": "default",
       "loaderFile": "",
       "domains": [],
@@ -73,7 +73,7 @@
     },
     "basePath": "/Jonas-Wendland",
     "sassOptions": {},
-    "trailingSlash": false,
+    "trailingSlash": true,
     "i18n": null,
     "productionBrowserSourceMaps": false,
     "excludeDefaultMomentLocales": true,

@@ -14,13 +14,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "next build",
-    "deploy": "gh-pages -d out",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
-  "homepage": "https://jonas-wendland.github.io/Jonas-Wendland/",
   "eslintConfig": {
     "extends": ["react-app", "react-app/jest"]
   },
