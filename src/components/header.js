@@ -4,16 +4,16 @@ import { Link } from "react-router-dom";
 
 
 const Header = () => {
-  const [dropdownOpen, setDropdownOpen] = useState(false);
+  // const [dropdownOpen, setDropdownOpen] = useState(false);
 
-  const toggleDropdown = () => {
-    setDropdownOpen(!dropdownOpen);
-  };
+  // const toggleDropdown = () => {
+  //   setDropdownOpen(!dropdownOpen);
+  // };
   return (
     <HeaderContainer>
       <Nav>
         <Logo></Logo>
-        <Dropdown>
+        {/* <Dropdown>
           <DropdownButton  onClick={toggleDropdown}>Menü</DropdownButton>
           {dropdownOpen && (
             <DropdownContent>
@@ -22,7 +22,7 @@ const Header = () => {
               <DropdownItem to="/about">About Me</DropdownItem>
             </DropdownContent>
           )}
-        </Dropdown>
+        </Dropdown> */}
       </Nav>
     </HeaderContainer>
   );
@@ -37,6 +37,7 @@ const HeaderContainer = styled.header`
   align-items: center;
   position: sticky;
   top: 0;
+  height: 1.8rem;
 `;
 
 const Nav = styled.nav`
