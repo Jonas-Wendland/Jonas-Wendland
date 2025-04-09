@@ -49,6 +49,10 @@ height: 30rem;
 const FrontSection = styled.section`
 display: grid;
 grid-template-columns: 1.3fr 1fr;
+@media (width <= 1200px) {
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+}
 `
 
 const StyledP = styled.p`
