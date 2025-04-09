@@ -44,6 +44,8 @@ align-items: center;
 flex-direction: column;
 justify-content: space-evenly;
 height: 30rem;
+ @media (height <= 920px) {
+  height: 25rem;}
 `
 
 const FrontSection = styled.section`
