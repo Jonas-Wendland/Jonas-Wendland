@@ -47,10 +47,6 @@ const Nav = styled.nav`
   width: 100%;
 `;
 
-const Logo = styled.div`
-  font-size: 1.5rem;
-  font-weight: bold;
-`;
 
 
 

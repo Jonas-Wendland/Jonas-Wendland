@@ -41,13 +41,13 @@ const Styleda = styled.a`
     transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; 
 
     @media (width <= 768px) {
-        gap: 0.2rem;
-    font-size: 0.5rem;
+        gap: 0.1rem;
+    font-size: 0.3rem;
     font-weight: bold;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    padding-top: 0.2rem;
-    padding-bottom: 0.2rem;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
     }
     
     &:hover {
