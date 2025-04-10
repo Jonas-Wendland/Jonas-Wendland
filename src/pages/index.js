@@ -76,6 +76,8 @@ padding-right: 2rem;
   font-size: 1.8rem;}
   @media (width <= 768px) {
     font-size: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
   }
   `
 
