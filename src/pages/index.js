@@ -36,6 +36,10 @@ object-fit: contain;
 box-shadow: 5px 5px 5px black;
 height: 200px;
 width: 200px;
+@media (height >= 1200px) {
+  height: 300px;
+  width: 300px;}
+
 `
 
 const StyledGreeting = styled.div`
@@ -46,6 +50,8 @@ justify-content: space-evenly;
 height: 30rem;
  @media (height <= 920px) {
   height: 25rem;}
+@media (height >= 1200px) {
+  height: 40rem;}
 `
 
 const FrontSection = styled.section`
@@ -60,8 +66,10 @@ grid-template-columns: 1.3fr 1fr;
 const StyledP = styled.p`
 flex-wrap: wrap;
 font-family: 'Merriweather', serif;
-font-size: 1.2rem;
+font-size: 1.5rem;
 padding-left: 2rem;
-padding-right: 2rem;`
+padding-right: 2rem;
+@media (height >= 1200px) {
+  font-size: 1.8rem;}`
 
 

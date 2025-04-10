@@ -27,8 +27,10 @@ justify-content: space-evenly;
 
 const StyledP = styled.p`
 width: 30rem;
-font-size: 1.2rem;
+font-size: 1.5rem;
 flex-wrap: wrap;
 font-family: 'Merriweather', serif;
 padding-right: 2rem;
+@media (height >= 1200px) {
+    font-size: 1.8rem;}
 `
