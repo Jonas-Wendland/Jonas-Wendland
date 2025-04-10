@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 import Icons from "./svgicon";
 import GithubIcon from "../lib/SVGIcons/GithubIcon";
 import LinkedIn from "../lib/SVGIcons/LinkedIn";
+import XingIcon from "../lib/SVGIcons/XingIcon";
 
 
 export default function HeaderLinks() {
@@ -12,10 +12,14 @@ export default function HeaderLinks() {
         <Icons icon={GithubIcon}/>
         <p>Jonas-Wendland</p>
         </Styleda>
-        <Styleda href="https://www.linkedin.com/in/jonas-wendland/" target="_blank" rel="noopener noreferrer">
+    <Styleda href="https://www.linkedin.com/in/jonas-wendland/" target="_blank" rel="noopener noreferrer">
         <Icons icon={LinkedIn}/>
         <p>Jonas Wendland</p>
         </Styleda>
+    <Styleda>
+        <Icons icon={XingIcon}/>
+        <p>Jonas Wendland</p>
+    </Styleda>
     </>
     )
 }
