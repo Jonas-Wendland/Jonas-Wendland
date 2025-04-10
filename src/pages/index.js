@@ -40,8 +40,8 @@ width: 200px;
   height: 300px;
   width: 300px;}
   @media (width <= 768px) {
-    height: 150px;
-    width: 150px;
+    height: 80px;
+    width: 80px;
   }
 `
 
