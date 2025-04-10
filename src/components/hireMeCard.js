@@ -16,6 +16,9 @@ const StyledH1 = styled.h1`
 font-size: 8rem;
 margin: 0;
 font-family: 'Playfair Display', serif;
+@media (width <= 768px) {
+    font-size: 5rem;
+}
 `
 
 const StyledHireme = styled.div`
@@ -32,5 +35,9 @@ flex-wrap: wrap;
 font-family: 'Merriweather', serif;
 padding-right: 2rem;
 @media (height >= 1200px) {
-    font-size: 1.8rem;}
+    font-size: 1.8rem;
+}
+@media (width <= 768px) {
+        font-size: 1rem;
+}
 `
