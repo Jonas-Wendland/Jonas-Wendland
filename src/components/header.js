@@ -35,7 +35,6 @@ const HeaderContainer = styled.header`
   color: white;
   padding: 10px 20px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   position: sticky;
   top: 0;
@@ -43,7 +42,7 @@ const HeaderContainer = styled.header`
 
 const Nav = styled.nav`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   width: 100%;
 `;

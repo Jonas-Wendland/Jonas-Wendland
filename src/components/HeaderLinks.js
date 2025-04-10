@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import Icons from "./svgicon";
 import GithubIcon from "../lib/SVGIcons/GithubIcon";
+import LinkedIn from "../lib/SVGIcons/LinkedIn";
 
 
 export default function HeaderLinks() {
@@ -10,6 +11,10 @@ export default function HeaderLinks() {
     <Styleda href="https://github.com/Jonas-Wendland" target="_blank" rel="noopener noreferrer">
         <Icons icon={GithubIcon}/>
         <p>Jonas-Wendland</p>
+        </Styleda>
+        <Styleda href="https://www.linkedin.com/in/jonas-wendland/" target="_blank" rel="noopener noreferrer">
+        <Icons icon={LinkedIn}/>
+        <p>Jonas Wendland</p>
         </Styleda>
     </>
     )
