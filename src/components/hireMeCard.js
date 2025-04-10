@@ -17,7 +17,7 @@ font-size: 8rem;
 margin: 0;
 font-family: 'Playfair Display', serif;
 @media (width <= 768px) {
-    font-size: 5rem;
+    font-size: 3rem;
 }
 `
 
