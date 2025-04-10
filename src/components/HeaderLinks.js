@@ -39,6 +39,16 @@ const Styleda = styled.a`
     border-radius: 2rem;
     background-color: rgb(0, 223, 67);
     transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; 
+
+    @media (width <= 768px) {
+        gap: 0.2rem;
+    font-size: 0.5rem;
+    font-weight: bold;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    }
     
     &:hover {
         background-color: rgb(137, 240, 183);
