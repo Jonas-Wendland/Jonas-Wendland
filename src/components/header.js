@@ -5,7 +5,7 @@ import HeaderLinks from "./HeaderLinks";
 
 
 
-const Header = () => {
+export default function Header() {
   // const [dropdownOpen, setDropdownOpen] = useState(false);
 
   // const toggleDropdown = () => {
@@ -88,5 +88,3 @@ const Logo = styled.div`
 //     background-color: #ddd;
 //   }
 // `;
-
-export default Header;
