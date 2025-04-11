@@ -39,7 +39,10 @@ width: 200px;
 @media (height >= 1200px) {
   height: 300px;
   width: 300px;}
-
+  @media (width <= 768px) {
+    height: 150px;
+    width: 150px;
+  }
 `
 
 const StyledGreeting = styled.div`
@@ -70,6 +73,12 @@ font-size: 1.5rem;
 padding-left: 2rem;
 padding-right: 2rem;
 @media (height >= 1200px) {
-  font-size: 1.8rem;}`
+  font-size: 1.8rem;}
+  @media (width <= 768px) {
+    font-size: 1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  `
 
 
