@@ -17,7 +17,7 @@ align-items: center;
 width: 64px;
 height: 64px;
 
-@media (height <= 768px){
+@media (width <= 768px){
 width: 34px;
 height: 34px;
 }

@@ -27,9 +27,6 @@ padding-right: 2rem;
 overflow-x: auto;
 flex-wrap: nowrap;
 height: 11rem;
-@media (width >= 510px){
-width: 90vw; 
-}
 
 &::-webkit-scrollbar {
   height: 10px;
