@@ -18,11 +18,9 @@ justify-content: space-evenly;
 align-items: center;
 border: 2px solid black;
 border-radius: 2rem;
-height: 10rem;
-width: 10rem;
+min-height: 9rem;
+min-width: 9rem;
+max-width: 9rem;
 box-shadow: 3px 3px 3px black;
-@media (width <= 1000px) {
-min-width: 7rem;
-min-height: 7rem;
-}
+
 `

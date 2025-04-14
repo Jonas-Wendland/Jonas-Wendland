@@ -5,7 +5,7 @@ export default function HireMeCard() {
     return (<>
     <StyledHireme>
         <StyledH1> HIRE ME</StyledH1> 
-        <StyledP>Ich bin offen für Stellenangebote und bin ganz heiß drauf endlich durchzusatrten 
+        <StyledP>Ich bin offen für Stellenangebote und bin ganz heiß drauf endlich durchzustarten 
         und bin bereit mir neues Wissen  anzueignen.</StyledP>
         </StyledHireme>
     </>)
@@ -17,7 +17,7 @@ font-size: 8rem;
 margin: 0;
 font-family: 'Playfair Display', serif;
 @media (width <= 768px) {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 `
 
@@ -29,10 +29,10 @@ justify-content: space-evenly;
 `
 
 const StyledP = styled.p`
-width: 30rem;
 font-size: 1.5rem;
 flex-wrap: wrap;
 font-family: 'Merriweather', serif;
+padding-left: 2rem;
 padding-right: 2rem;
 @media (height >= 1200px) {
     font-size: 1.8rem;

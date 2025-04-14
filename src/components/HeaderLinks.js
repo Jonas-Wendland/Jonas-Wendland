@@ -40,7 +40,7 @@ const Styleda = styled.a`
     background-color: rgb(0, 223, 67);
     transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; 
 
-    @media (width <= 768px) {
+    @media (width <= 600px) {
         gap: 0.1rem;
     font-size: 0.3rem;
     font-weight: bold;

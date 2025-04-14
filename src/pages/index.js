@@ -14,7 +14,7 @@ export default function Homepage() {
   <StyledGreeting>
     <StyledImg src={ProfilePicture} alt="ProfilePicture"></StyledImg>
     <StyledP>Mein Name ist Jonas Wendland und ich bin ein junior <span>Web-/Frontend</span>-entwickler. <br/>
-      Diese Seite ist da um mich vorzustellen und zu zeigen was ich bis jetzt alles kann. 
+      Diese Seite ist da um mich vorzustellen und zu zeigen was ich bisher alles kann. 
     </StyledP>
   </StyledGreeting>
   <HireMeCard/>
@@ -76,8 +76,6 @@ padding-right: 2rem;
   font-size: 1.8rem;}
   @media (width <= 768px) {
     font-size: 1rem;
-    padding-left: 0rem;
-    padding-right: 0rem;
   }
   `
 
