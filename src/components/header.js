@@ -38,6 +38,7 @@ const HeaderContainer = styled.header`
   align-items: center;
   position: sticky;
   top: 0;
+  width: 100%;
 `;
 
 const Nav = styled.nav`
