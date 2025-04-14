@@ -14,5 +14,11 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+width: 64px;
+height: 64px;
 
+@media (height >= 768px){
+width: 44px;
+height: 44px;
+}
 `

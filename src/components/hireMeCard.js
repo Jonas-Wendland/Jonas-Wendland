@@ -5,7 +5,7 @@ export default function HireMeCard() {
     return (<>
     <StyledHireme>
         <StyledH1> HIRE ME</StyledH1> 
-        <StyledP>Ich bin offen für Stellenangebote und bin ganz heiß drauf endlich durchzusatrten 
+        <StyledP>Ich bin offen für Stellenangebote und bin ganz heiß drauf endlich durchzustarten 
         und bin bereit mir neues Wissen  anzueignen.</StyledP>
         </StyledHireme>
     </>)

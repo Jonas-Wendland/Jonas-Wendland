@@ -1,5 +1,5 @@
 const JavaScriptIcon = () => (
-    <svg width="62px" height="62px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <svg width="100%" height="100%" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg">
     <g>
         <path d="M0,0 L256,0 L256,256 L0,256 L0,0 Z" fill="#F7DF1E">
 
