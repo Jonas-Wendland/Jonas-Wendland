@@ -17,7 +17,7 @@ font-size: 8rem;
 margin: 0;
 font-family: 'Playfair Display', serif;
 @media (width <= 768px) {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 `
 
@@ -32,9 +32,8 @@ const StyledP = styled.p`
 font-size: 1.5rem;
 flex-wrap: wrap;
 font-family: 'Merriweather', serif;
+padding-left: 2rem;
 padding-right: 2rem;
-align-items: center;
-justify-content: center;
 @media (height >= 1200px) {
     font-size: 1.8rem;
 }
