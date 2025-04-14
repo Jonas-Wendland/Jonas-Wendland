@@ -33,12 +33,10 @@ export default function Header() {
 const HeaderContainer = styled.header`
   background-color: #333;
   color: white;
-  padding: 10px 20px;
+  padding: 10px;
   display: flex;
   align-items: center;
-  position: sticky;
   top: 0;
-  width: 100%;
 `;
 
 const Nav = styled.nav`
