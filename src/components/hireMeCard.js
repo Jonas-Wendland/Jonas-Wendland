@@ -33,6 +33,8 @@ font-size: 1.5rem;
 flex-wrap: wrap;
 font-family: 'Merriweather', serif;
 padding-right: 2rem;
+align-items: center;
+justify-content: center;
 @media (height >= 1200px) {
     font-size: 1.8rem;
 }
