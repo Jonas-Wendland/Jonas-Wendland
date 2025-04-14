@@ -21,8 +21,5 @@ border-radius: 2rem;
 height: 10rem;
 width: 10rem;
 box-shadow: 3px 3px 3px black;
-@media (width <= 1000px) {
-min-width: 7rem;
-min-height: 7rem;
-}
+
 `
