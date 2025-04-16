@@ -3,18 +3,18 @@ import styled from "styled-components"
 
 export default function ProjectsCard({projectImage1, projectImage2, projectName}) {
     return (<>
-    <StyledDiv>
+    <StyledA href="https://github.com/Braun-Johannes/Survival-Pets" target="_blank" rel="noopener noreferrer">
         <ImageContainer>
     <StyledImg1 src={projectImage1}/>
     <StyledImg2 src={projectImage2}/>
     </ImageContainer>
     <p>{projectName}</p>
-    </StyledDiv>
+    </StyledA>
     </>
     )
 }
 
-const StyledDiv = styled.div`
+const StyledA = styled.a`
 display: flex;
 background-color: #03624c; 
 flex-direction: column;
@@ -26,7 +26,10 @@ min-height: 9rem;
 min-width: 9rem;
 max-width: 9rem;
 box-shadow: 3px 3px 3px black;
-
+text-decoration: none;
+color: #030f0f;
+font-family: 'Playfair Display', serif;
+font-size: 1.2rem;
 `
 
 const StyledImg1 = styled.img`
