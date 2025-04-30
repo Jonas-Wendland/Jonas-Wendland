@@ -27,7 +27,7 @@ min-width: 9rem;
 max-width: 9rem;
 box-shadow: 3px 3px 3px black;
 text-decoration: none;
-color: #030f0f;
+color: white;
 font-family: 'Playfair Display', serif;
 font-size: 1.2rem;
 `
