@@ -35,6 +35,7 @@ padding: 0;
 margin: 0;
 padding-left: 5%;
 color: white;
+font-family: 'Playfair Display', serif;
 `
 
 const SkillCardList = styled.div`
