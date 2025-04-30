@@ -11,7 +11,10 @@ import styled from "styled-components";
 
 
 export default function SkillsCardList(){
-    return(<CardListContainer>
+    return(
+    <div>
+    <StyledP>Skills</StyledP>
+    <CardListContainer>
     <SkillCardList>
       <SkillsCard skillIcon={CSSIcon} skillName={"CSS"}/>
       <SkillsCard skillIcon={HTMLIcon} skillName={"HTML"}/>
@@ -22,8 +25,17 @@ export default function SkillsCardList(){
       <SkillsCard skillIcon={APIIcon} skillName={"API"}/>
     </SkillCardList>
     </CardListContainer>
+    </div>
     )
 }
+
+const StyledP = styled.p`
+font-size: 2rem;
+padding: 0;
+margin: 0;
+padding-left: 5%;
+color: white;
+`
 
 const SkillCardList = styled.div`
 background-color:rgb(0, 223, 67);

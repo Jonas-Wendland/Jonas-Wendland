@@ -6,14 +6,24 @@ import survivalPetsMini2 from "../lib/images/survivalPets-mini-2.png"
 
 
 export default function ProjectsList() {
-    return(<ProjectsListContainer>
+    return(<div>
+    <StyledP>Projekte</StyledP>
+    <ProjectsListContainer>
     <ProjectList>
         <ProjectsCard  projectImage1={survivalPetsMini1} projectImage2={survivalPetsMini2} projectName={"Survival Pets"}/>
     </ProjectList>
     </ProjectsListContainer>
+    </div>
     )
 }
 
+const StyledP = styled.p`
+font-size: 2rem;
+padding: 0;
+margin: 0;
+padding-left: 5%;
+color: white;
+`
 
 const ProjectList = styled.div`
 background-color:rgb(0, 223, 67);
