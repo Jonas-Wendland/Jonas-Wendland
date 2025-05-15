@@ -8,7 +8,7 @@ Willkommen auf meinem GitHub-Profil! Ich bin ein leidenschaftlicher **Web-Fronte
 ---
 
 ## 🚀 Über mich
-- 🌱 Ich lerne derzeit **TypeScript** und **SQL**
+- 🌱 Ich lerne derzeit **Golang** und **Algorithm**
 - 👨‍💻 Ich bin erfahren in **Frontend-Entwicklung** mit Fachkenntnissen in **HTML, CSS, JavaScript und React**
 - 🤝 Ich bin offen für die Zusammenarbeit an **Webentwicklungsprojekten** oder **Open-Source-Beiträgen**
 - 🌍 Ich möchte zu **barrierefreien Tools** oder **Frontend-Bibliotheken** beitragen
